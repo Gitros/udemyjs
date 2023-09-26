@@ -1,4 +1,17 @@
-const p = document.createElement('p');
+let score = 15 % 2;
 
-p.textContent = 'Jestem dynamicznie dodanym paragrafem!';
-document.body.append(p)
+console.log(score);
+
+let num1 = 8;
+num1++;
+num1++;
+
+console.log(num1);
+
+let x = 5;
+let y = 10;
+
+let multiplication = x *= y;
+let division = x /= y;
+
+console.log(multiplication, division);
