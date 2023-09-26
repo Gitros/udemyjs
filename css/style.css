@@ -1,1 +1,22 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(78, 78, 78);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+body h1 {
+  font-size: 60px;
+}
+body h2 {
+  font-size: 40px;
+}/*# sourceMappingURL=style.css.map */
