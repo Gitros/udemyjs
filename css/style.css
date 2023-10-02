@@ -17,6 +17,15 @@ body {
 body h1 {
   font-size: 60px;
 }
-body h2 {
-  font-size: 40px;
+body div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body div button {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.664);
+  width: 20vw;
+  height: 3vh;
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
