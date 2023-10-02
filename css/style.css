@@ -22,10 +22,32 @@ body div {
   align-items: center;
   justify-content: center;
 }
-body div button {
-  color: black;
-  background-color: rgba(255, 255, 255, 0.664);
-  width: 20vw;
-  height: 3vh;
-  margin: 10px;
+body button {
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+body .btn2 {
+  margin-left: 30px;
+}
+body .color {
+  margin: 50px auto;
+  width: 300px;
+  height: 300px;
+  background-color: gold;
+}
+body .remove-color {
+  background-color: gold;
+  width: 90%;
+  color: #000;
+}
+body .blue {
+  background-color: royalblue;
+}
+body .red {
+  background-color: tomato;
 }/*# sourceMappingURL=style.css.map */
